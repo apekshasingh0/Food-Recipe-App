@@ -1,0 +1,32 @@
+.food{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+}
+ input{
+    width: 25rem;
+    background-color: rgb(70,44,44);
+    border: none;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+
+ }
+
+ input::placeholder{
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+ }
+ input:focus{
+    outline: none;
+    box-shadow: 0 0 10px chartreuse;
+ }
+.img{
+    width: 220px;
+    border-radius: 10px;
+    border: 5px solid chartreuse;
+}
